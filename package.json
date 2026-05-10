@@ -11,7 +11,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "format": "prettier --write .",
-    "prepare": "husky",
+    "prepare": "husky || true",
     "seed": "ts-node scripts/seed/index.ts",
     "seed:clear": "ts-node scripts/seed/clearDatabase.ts"
   },
